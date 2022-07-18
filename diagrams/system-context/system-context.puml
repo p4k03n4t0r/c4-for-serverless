@@ -1,0 +1,16 @@
+@startuml system-context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+' Entities
+Person(pet_owner, "Pet Owner")
+System(pet_feeding_notification, "Pet Feeding Notification system", "Allows pet owner to configure notifications as a reminder to feed their pet")
+System_Ext(mega_pet_data_store, "Mega Pet Data Store", "Stores all the information about the pet(s) of an pet owner")
+
+' Relations
+Rel(pet_owner, pet_feeding_notification, "Configure notifications")
+Rel(pet_feeding_notification, pet_owner, "Send reminder")
+Rel(pet_feeding_notification, mega_pet_data_store, "Retrieve feeding details")
+
+@enduml
