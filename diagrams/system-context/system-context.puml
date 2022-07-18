@@ -5,12 +5,13 @@ LAYOUT_WITH_LEGEND()
 
 ' Entities
 Person(pet_owner, "Pet Owner")
-System(pet_feeding_notification, "Pet Feeding Notification system", "Allows pet owner to configure notifications as a reminder to feed their pet")
-System_Ext(mega_pet_data_store, "Mega Pet Data Store", "Stores all the information about the pet(s) of an pet owner")
+System(pet_feeding_platform, "Pet Feeding Platform", "Allows pet owners to store information related to the feeding of their pet(s)")
+System_Ext(pet_data_store, "Pet Data Store", "Stores the information about the pet(s) of an pet owner")
 
 ' Relations
-Rel(pet_owner, pet_feeding_notification, "Configure notifications")
-Rel(pet_feeding_notification, pet_owner, "Send reminder")
-Rel(pet_feeding_notification, mega_pet_data_store, "Retrieve feeding details")
+Rel(pet_owner, pet_feeding_platform, "Configure feeding details of pet")
+
+Rel(pet_feeding_platform, pet_owner, "Send feeding reminder")
+Rel(pet_feeding_platform, pet_data_store, "Retrieve pet details")
 
 @enduml

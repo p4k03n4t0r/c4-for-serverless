@@ -1,0 +1,25 @@
+@startuml pet-feeding-notification-container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+' Entities
+Person(pet_owner, "Pet Owner")
+System_Boundary(pet_feeding_notification, "Pet Feeding Notification system") {
+    Container(notification_management, "Notification Management", "AWS Serverless", "Keeps track of configured notifications and allows them to be changed.")
+    Container(notification_scheduler, "Notification Scheduler", "AWS Serverless", "On a scheduled basis get notifications that have to be sent")
+    Container(notifier, "Notifier", "AWS Serverless", "Send feeding instruction notifications to the pet owners")
+}
+System_Ext(mega_pet_data_store, "Mega Pet Data Store", "Stores all the information about the pet(s) of an pet owner")
+
+' Relations
+Rel(pet_owner, notification_management, "Configure notifications", "HTTPS")
+
+Rel(notification_scheduler, notification_management, "Retrieve notifications to send", "REST")
+Rel(notification_scheduler, notifier, "Create notifications", "SNS Event")
+
+Rel(notifier, mega_pet_data_store, "Retrieve feeding instructions", "REST")
+Rel(notifier, pet_owner, "Send feeding notification", "SMS")
+
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml pet-feeding-platform
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+' Entities
+Person(pet_owner, "Pet Owner")
+System_Boundary(pet_feeding_platform, "Pet Feeding Platform") {
+    Container(pet_feeding_data_store, "Pet Feeding Data Store", "AWS Serverless", "Stores all data related to feeding of pets and allows it to be retrieved and changed.")
+    Container(feeding_reminder_service, "Feeding Reminder Service", "AWS Serverless", "Sends a notification to the pet owner when their pet(s) have to be fed.")
+    Container(feeding_schedule_predictor, "Feeding Schedule Predictor", "AWS Serverless", "Predicts a weekly schedule for feeding a pet based on its history.")
+}
+System_Ext(pet_data_store, "Pet Data Store", "Stores the information about the pet(s) of an pet owner")
+
+' Relations
+Rel(pet_owner, pet_feeding_data_store, "Configure feeding details of pet")
+Rel(pet_owner, feeding_reminder_service, "Set feeding reminders")
+Rel(pet_owner, feeding_schedule_predictor, "Get new feeding schedule prediction")
+
+Rel(pet_feeding_data_store, pet_data_store, "Sync details of pets")
+
+Rel(feeding_reminder_service, pet_feeding_data_store, "Retrieve feeding instructions")
+Rel(feeding_reminder_service, pet_owner, "Send feeding reminder")
+
+Rel(feeding_schedule_predictor, pet_feeding_data_store, "Retrieve historical feeding data")
+
+@enduml

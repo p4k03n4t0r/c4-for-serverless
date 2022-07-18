@@ -1,5 +1,9 @@
 # c4-for-serverless
 
+This repository contains how the [C4 model](https://c4model.com/) can be applied to a serverless architecture. For modeling 'diagrams as code' is used via [PlantUML](https://plantuml.com/).
+
+## Getting started
+
 https://github.com/plantuml/plantuml/releases/download/v1.2022.6/plantuml-1.2022.6.jar
 https://plantuml.com/download
 VSCode extension: PlantUML
@@ -18,25 +22,7 @@ sudo brew install graphviz
 
 ### Container level
 
-![](diagrams/container/my-system.svg)
-
-### Component level
-
-![](diagrams/component/my-feature.svg)
-
-### Code level
-
-![](diagrams/code/my-pattern.svg)
-
-## Example C4 diagrams
-
-### System Context level
-
-![](diagrams/system-context/system-context.svg)
-
-### Container level
-
-![](diagrams/container/my-system.svg)
+![](diagrams/container/pet-feeding-platform.svg)
 
 ### Component level
 

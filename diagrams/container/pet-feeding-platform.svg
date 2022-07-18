@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="992px" preserveAspectRatio="none" style="width:665px;height:992px;background:#FFFFFF;" version="1.1" viewBox="0 0 665 992" width="665px" zoomAndPan="magnify"><defs/><g><!--MD5=[4c629ed68c1d2d914489ec476a5bf089]
+cluster pet_feeding_platform--><g id="cluster_pet_feeding_platform"><rect height="502" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="479" x="7" y="161"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="188" x="152.5" y="177.8516">Pet Feeding Platform</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="215.5" y="192.7637">[System]</text></g><!--MD5=[ef5b65fbbbace3b08ec5158ff64fa240]
+entity pet_feeding_data_store--><g id="elem_pet_feeding_data_store"><rect fill="#438DD5" height="136.4063" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="220" x="233" y="519"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="263.5" y="543.8516">Pet Feeding Data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="49" x="318.5" y="562.4766">Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="290" y="577.3887">[AWS Serverless]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="341" y="593.2139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="257.5" y="609.5107">Stores all data related to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="245" y="625.8076">feeding of pets and allows it</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="243" y="642.1045">to be retrieved and changed.</text></g><!--MD5=[6c4a5341e34416f22d1e99b22e3f2315]
+entity feeding_reminder_service--><g id="elem_feeding_reminder_service"><rect fill="#438DD5" height="136.4063" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="216" x="15" y="204"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="159" x="40.5" y="228.8516">Feeding Reminder</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="65" x="90.5" y="247.4766">Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="70" y="262.3887">[AWS Serverless]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="121" y="278.2139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="31" y="294.5107">Sends a notification to the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="25" y="310.8076">pet owner when their pet(s)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="71.5" y="327.1045">have to be fed.</text></g><!--MD5=[554d10f24cdf2bdaf64f53a2af56dcda]
+entity feeding_schedule_predictor--><g id="elem_feeding_schedule_predictor"><rect fill="#438DD5" height="136.4063" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="211" x="266.5" y="204"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="155" x="291.5" y="228.8516">Feeding Schedule</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="83" x="330.5" y="247.4766">Predictor</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="319" y="262.3887">[AWS Serverless]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="370" y="278.2139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="276.5" y="294.5107">Predicts a weekly schedule</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="279" y="310.8076">for feeding a pet based on</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="337" y="327.1045">its history.</text></g><!--MD5=[400217d9ee4a418cd657e7fdcbca4ec6]
+entity pet_owner--><g id="elem_pet_owner"><rect fill="#08427B" height="86.625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="116" x="241" y="7"/><image height="48" width="48" x="275" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="96" x="251" y="79.8516">Pet Owner</text></g><!--MD5=[49ea004a41e490f0d95524c769da5ab7]
+entity pet_data_store--><g id="elem_pet_data_store"><rect fill="#999999" height="103.8125" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="201" x="242.5" y="730"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="276.5" y="754.8516">Pet Data Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="341" y="771.6201"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="266.5" y="787.917">Stores the information</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="252.5" y="804.2139">about the pet(s) of an pet</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="321.5" y="820.5107">owner</text></g><!--MD5=[3e47d54ad68cb6d4ca117056046aa090]
+link pet_owner to pet_feeding_data_store--><g id="link_pet_owner_pet_feeding_data_store"><path d="M357.4164,57.5899 C400.429,65.9998 456.8156,84.2999 489,124 C499.4911,136.941 493.5075,144.4077 495,161 C506.8273,292.4878 556.4104,338.64 500,458 C490.2668,478.5947 475.4554,497.0072 458.7467,513.028 " fill="none" id="pet_owner-to-pet_feeding_data_store" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="452.5109,518.8218,460.4136,515.5743,456.3297,511.1787,452.5109,518.8218" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="127" x="526" y="382.1387">Configure feeding</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="95" x="544" y="396.1074">details of pet</text></g><!--MD5=[a9d119e6a99a6529bf696b6c4c2059e9]
+link pet_owner to feeding_reminder_service--><g id="link_pet_owner_feeding_reminder_service"><path d="M240.831,63.9258 C187.6714,77.5128 114.8448,99.9047 98,124 C83.4498,144.8131 83.6003,171.2274 89.3676,195.9624 " fill="none" id="pet_owner-to-feeding_reminder_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="91.4259,203.9249,92.3281,195.4287,86.5191,196.9304,91.4259,203.9249" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="99" y="136.1387">Set feeding</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="72" x="106" y="150.1074">reminders</text></g><!--MD5=[720a519daaa209b912981e2b227a6a6f]
+link feeding_reminder_service to pet_owner--><g id="link_feeding_reminder_service_pet_owner"><path d="M164.1365,203.8291 C180.8982,177.9269 201.2112,148.7262 222,124 C228.8235,115.8841 236.4562,107.7141 244.1926,99.922 " fill="none" id="feeding_reminder_service-to-pet_owner" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="250.1172,94.0442,242.3251,97.5489,246.5509,101.8083,250.1172,94.0442" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="94" x="223" y="136.1387">Send feeding</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="64" x="240" y="150.1074">reminder</text></g><!--MD5=[f5c56f05d85fc955eb27297498d887a5]
+link pet_owner to feeding_schedule_predictor--><g id="link_pet_owner_feeding_schedule_predictor"><path d="M318.4141,94.0744 C322.4713,103.8341 326.5575,114.2004 330,124 C338.1123,147.0929 345.7986,172.6178 352.3245,195.8744 " fill="none" id="pet_owner-to-feeding_schedule_predictor" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="354.4921,203.6677,355.2387,195.1564,349.4581,196.7642,354.4921,203.6677" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="349.5" y="136.1387">Get new feeding</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="140" x="340" y="150.1074">schedule prediction</text></g><!--MD5=[741cdb26f85458fb692fd801bf6fd7c7]
+link pet_feeding_data_store to pet_data_store--><g id="link_pet_feeding_data_store_pet_data_store"><path d="M343,655.2015 C343,676.8232 343,700.5641 343,721.5978 " fill="none" id="pet_feeding_data_store-to-pet_data_store" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="343,729.8197,346,721.8197,340,721.8197,343,729.8197" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="140" x="344" y="697.1387">Sync details of pets</text></g><!--MD5=[be57504cff5ed73de2dd1af7663570c6]
+link feeding_reminder_service to pet_feeding_data_store--><g id="link_feeding_reminder_service_pet_feeding_data_store"><path d="M154.9334,340.2468 C173.1507,376.5144 197.5851,421.0996 224,458 C237.2685,476.5355 252.9447,495.2543 268.4883,512.4664 " fill="none" id="feeding_reminder_service-to-pet_feeding_data_store" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="274.2042,518.7364,271.0316,510.8033,266.5976,514.8455,274.2042,518.7364" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="225" y="441.1387">Retrieve feeding</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="85" x="243" y="455.1074">instructions</text></g><!--MD5=[e85c7bcd4e7d86f08638ef9f68d47f4e]
+link feeding_schedule_predictor to pet_feeding_data_store--><g id="link_feeding_schedule_predictor_pet_feeding_data_store"><path d="M365.7074,340.3503 C361.0902,390.5033 354.8174,458.639 350.0346,510.5895 " fill="none" id="feeding_schedule_predictor-to-pet_feeding_data_store" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="349.2803,518.7831,353.0012,511.0919,347.0265,510.5417,349.2803,518.7831" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="129" x="358" y="441.1387">Retrieve historical</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="91" x="379" y="455.1074">feeding data</text></g><rect height="130.0781" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="144" x="499" y="846.8125"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="505" y="867.8076">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="564" y="867.8076"> </text><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="505" y="871.1094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="509" y="884.1045">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="505" y="887.4063"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="509" y="900.4014">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="505" y="903.7031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="509" y="916.6982">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="505" y="920"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="509" y="932.9951">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="505" y="936.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="509" y="949.292">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="505" y="952.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="509" y="965.5889">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="854.8125" y2="854.8125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="871.1094" y2="871.1094"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="887.4063" y2="887.4063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="903.7031" y2="903.7031"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="920" y2="920"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="936.2969" y2="936.2969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="952.5938" y2="952.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="637" y1="968.8906" y2="968.8906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="505" x2="505" y1="854.8125" y2="968.8906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="637" x2="637" y1="854.8125" y2="968.8906"/><!--MD5=[935fab7eeafaadb76bb79dd365f5d3d8]
+@startuml pet-feeding-platform
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+' Entities
+Person(pet_owner, "Pet Owner")
+System_Boundary(pet_feeding_platform, "Pet Feeding Platform") {
+    Container(pet_feeding_data_store, "Pet Feeding Data Store", "AWS Serverless", "Stores all data related to feeding of pets and allows it to be retrieved and changed.")
+    Container(feeding_reminder_service, "Feeding Reminder Service", "AWS Serverless", "Sends a notification to the pet owner when their pet(s) have to be fed.")
+    Container(feeding_schedule_predictor, "Feeding Schedule Predictor", "AWS Serverless", "Predicts a weekly schedule for feeding a pet based on its history.")
+}
+System_Ext(pet_data_store, "Pet Data Store", "Stores the information about the pet(s) of an pet owner")
+
+' Relations
+Rel(pet_owner, pet_feeding_data_store, "Configure feeding details of pet")
+Rel(pet_owner, feeding_reminder_service, "Set feeding reminders")
+Rel(pet_owner, feeding_schedule_predictor, "Get new feeding schedule prediction")
+
+Rel(pet_feeding_data_store, pet_data_store, "Sync details of pets")
+
+Rel(feeding_reminder_service, pet_feeding_data_store, "Retrieve feeding instructions")
+Rel(feeding_reminder_service, pet_owner, "Send feeding reminder")
+
+Rel(feeding_schedule_predictor, pet_feeding_data_store, "Retrieve historical feeding data")
+
+@enduml
+
+@startuml pet-feeding-platform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+rectangle "<$person>\n==Pet Owner" <<person>> as pet_owner 
+rectangle "==Pet Feeding Platform\n<size:12>[System]</size>" <<boundary>> as pet_feeding_platform  {
+    rectangle "==Pet Feeding Data Store\n//<size:12>[AWS Serverless]</size>//\n\nStores all data related to feeding of pets and allows it to be retrieved and changed." <<container>> as pet_feeding_data_store 
+    rectangle "==Feeding Reminder Service\n//<size:12>[AWS Serverless]</size>//\n\nSends a notification to the pet owner when their pet(s) have to be fed." <<container>> as feeding_reminder_service 
+    rectangle "==Feeding Schedule Predictor\n//<size:12>[AWS Serverless]</size>//\n\nPredicts a weekly schedule for feeding a pet based on its history." <<container>> as feeding_schedule_predictor 
+}
+rectangle "==Pet Data Store\n\n Stores the information about the pet(s) of an pet owner" <<external_system>> as pet_data_store 
+
+pet_owner - ->> pet_feeding_data_store : **Configure feeding details of pet**
+pet_owner - ->> feeding_reminder_service : **Set feeding reminders**
+pet_owner - ->> feeding_schedule_predictor : **Get new feeding schedule prediction**
+
+pet_feeding_data_store - ->> pet_data_store : **Sync details of pets**
+
+feeding_reminder_service - ->> pet_feeding_data_store : **Retrieve feeding instructions**
+feeding_reminder_service - ->> pet_owner : **Send feeding reminder**
+
+feeding_schedule_predictor - ->> pet_feeding_data_store : **Retrieve historical feeding data**
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 19:34:49 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
