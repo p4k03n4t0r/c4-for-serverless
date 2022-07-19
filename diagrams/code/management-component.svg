@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="821px" preserveAspectRatio="none" style="width:780px;height:821px;background:#FFFFFF;" version="1.1" viewBox="0 0 780 821" width="780px" zoomAndPan="magnify"><defs/><g><!--MD5=[503130fef546779811418e5f39df21ee]
+entity sources--><g id="elem_sources"><rect fill="#FFFFFF" height="131.1094" rx="2.5" ry="2.5" style="stroke:#FF9900;stroke-width:0.5;" width="191" x="290" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="363.5" y="28.6016">«Users»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="93" x="339" y="46.6016">Pet Owners</text><image height="64" width="64" x="353.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAEyklEQVR4XtVaLY8UQRC9v7YasRYMjqAwJCgEAnfBIM/gCAaFQGBQmyBwl5BgLwS/8AOal62btzXVNdXVPZML91Ihd9MzXf3qq6v7uCj3HBf2wX3DCIGbX78P375f//h5/PPXjvUDk2AqmdCOJdBBADqevXi1e/BQy+Onz6/evR9ggk8+fPyEz82EUPH5y1f79jJSBGDyeula9o+edGmFLfBJPQ8FxKDUfuahTQCepTL88PL1G1gOK8CKYXttQvxqP/aAz/VCL99eYSqZEJNrXZmgahCAGTgjZndDBYr5DhZnh+fAy1yf+zJUgBLfafqhQYCRE1uXXopVYnF8LbYuvYQF2LE5IgLQQdvbsQqIAXkZ9rNjE2jaTMJAqbyMme2YQkSA+gKjaoi7YF07MEHM3zSqAO7KmC8i0KWvqPh2bUZ/uqHvommREhMQfUFIGHCJboSQXhz9Gkg8+cQtHoJFAvRgnL4aiLTAxiSQDMiiUjn4ZJFAmUJoKw8wy90Ac0EP2AGFiIBsUvjXDiyABnODhP7Ju1QWMJ4DNIC7oBpNfV0WoT/jEIgI0GYZlTR/YODMOwT30CABSkygKCfExZgJCqpBxSiTE3YLiU5wF4vNX5oEilKJH+r8g3m43+0SwaZbQ6yyti5UaI1mtEabACyqe+n9qSHFoiG6FcXzmp4LzUFWKbNB9HMojZ0paBMolUpXMmFNMDKXpNntEQ0CcDHDsSmwpbsDaOAF7bdYoLpJIyKAPDO+huUQJ2AF58pZ1pxCRKvrejzUtpBQhApMIhPenI7aeGJOf7FvFwloZW62acgBlzRclQwbvHbVOkYbzwc10CfAj/OpWaZ0D5RhKJmaAp17S02xQ4BlsVnU7wBYAHPG3RMsgfyW1ATCACaUELdjPdAc6iIxI3BUZ9ZhrbK1mbKLX/FwzZxcmDHrjADzLN7nA+hd2RU3DDJY6qNmBIRlZgN3ocsffpaaW1fGrjzWkEDaz7vdMwFG/5j5Wbigxt198JChvFRSYnCFOhPOBLiCAfNw6qZ16YoBMx29e4ozAYmfMdssZVgNXSfsWAL1PcUtAZIbSDIedpNGZTrmt0iCZYaWuiXAwxcISObFoqO8njSGa6zr058ImsIqxwXcErieDqBJ0bolebpCQrJZh2uz/hqxBOiBpGgCEpddxVc+WUOAe+I5iaWbTYoOIdHd5QHJY11MkiEkond02wsNgDmQ7BTobbfr7sUGBJg/yQpGwu5+14sNCBS1PTXXxLasK2cCbEOATtiHbSyG2E0c+jcBF9sQKPMTo7ujNc+cY9iMQJlflmCtiKvL022POfVvuPqyLYHj/ArMlfUHPYPNCMCu2syB7BO3EnlsQEA3+rI+aaiuT/+Z4jhd+BiG+577jgBrCfAksMvdzB3U3e0u3cAGWEWAjfGuMzV1uq/kME7gMB0DxoLhoP6/x8DnxCABHqzWqNcmGM7pQQLsflcGAIMwuJCMMUKAjcPYAdqAW0fQgwQYIVCf69agt5k16CbA6N/E/IL6riGPbgLMvGbJz4ObyUA96CbQeweRAe8pujYTQTeBNe4OUN9TJNFNQDQ9Pv3NeEPhtFZfC90Eki3nmAw4tpuAbsU2l7vwABKuDoCtZKAwdBP433DvCfwDWYFEOt5YljYAAAAASUVORK5CYII=" y="49.9766"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="171" x="300" y="125.5781">[Authenticated with valid JWT]</text></g><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><g id="elem_api"><rect fill="#FFFFFF" height="131.1094" rx="2.5" ry="2.5" style="stroke:#FF9900;stroke-width:0.5;" width="132" x="319.5" y="228"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="79" x="346" y="249.6016">«APIGateway»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="27" x="372" y="267.6016">API</text><image height="64" width="64" x="353.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAACV0lEQVR4Xu2ZzUoDMRSF+6auXLpy68a1C9cu3AvuBR9AfIH2AdSBQilIC1IQpB5y6CUk6fwkM+amJhyK+bu53yRzkziz5uKyaM38orJUAXKrAuRWBcitCpBb/x5gdXO7fXrGr1/VruiOjuIBMPbXy+veJLjiN2gXurAvjKRgxADYrqcDMEVjDAPAGLv5gkP+bDafD4/ru/sUAHSHEZiiTRgfitEXwHcdhW9n5+kAMLK8uo7G6AawXf9+/6DronQAuxDGMcQgjA4A+hd03W4wFgBlYwQb2OoAgK12/6YAsBsEn5qtXgAtVqYD6ByaGg0A76Jfe0xorAuAURzBBCX4RSEUzLKL7CRaAJgYNKSEzqGQWS4zYEh7aRNU59DUOAAIGvBPHjn+3h7OOceyjDNaAIp/B04hCvlVFNZMcEMtBoCO+hb0AqAEIVKyfFlX5vpiu6sUgO3pcXOIoWCQYCqmNAJwb8KpWNyil6xFIQ/MnB91APKM1+aIz1pZP411eWCJOoDGmgFn/bAlsqpngFm6hcQdV/o6BwppqQ6AXfiM7fXTmPmx7egFoJz140s7QGdH7QCNmQS5A/gqAKBd6gDKPk4Xf6FhootSQuecHUDplbL4S33x78ApRCG/ql1/DXBshUwEgOHGBOC/poPb6hQAS/O5gHE2FUAO8Uy7+cIhGRGAfsu3iL11tWhRBwDFqBckSQcI+t3/k1kvANHKXAVtEk50NIB8yKDf2+EfXocBiJw5iQag3/2ft69IABHnJGL46I6OUgGyqwLkVgXIrQqQWxUgtypAbv0CxnRE8cHs8y8AAAAASUVORK5CYII=" y="270.9766"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="112" x="329.5" y="346.5781">[REST API Gateway]</text></g><!--MD5=[b8645d230609221462b3f2552eec44ed]
+entity userAuth--><g id="elem_userAuth"><rect fill="#FFFFFF" height="131.1094" rx="2.5" ry="2.5" style="stroke:#FF9900;stroke-width:0.5;" width="183" x="7" y="449"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="71" y="470.6016">«Cognito»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="163" x="17" y="488.6016">User Authentication</text><image height="64" width="64" x="66.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAADMElEQVR4Xu2Zv4rcMBDG701TpUyVNk3qK1KnSB9IH8gDHHmBywMkEQiWQLjAsWA4nA99eBhrVpa0u7a8IPFxeG1Zmp9mRn98d+7N25vWnb11W+oArdUBWqsDtFYHaK0O0FqlAIf7D38+flpb6MV2vaw8gH/3fvj1e9yqoC/0aM1IKQ9wfPyBdvH339dva4t9gcGakVIGAINR2+KForfLYykDgIY4/PbRgoBdK3n3+eF7YwB/Vs5IF7sAoE3AKBQqvzw90Q97AbCvYJZkplrjYP2uAdAI7KNbWPBUxz0BcPHz1etVANA6urSuT0kDwFBaD8vghL+fv0QVXAAYQ8jhJq+vDHBGiZISkaObJQN4+DPyz3h1AHq8UFHU0VYdMC7kwxh8wp8MIbyIasewll0fwD5Kyc9zQCeoiM1GAG69HLgEgCMq0ULRSuQDf+56FpJpAAyMMeQD74hbNgJA03bCoSQY3BxAzGXRyYrrrT3AYDhZtIsEwE97ChgHs45hiuQ1rRynNNgIgAGQkrxCAL0g6Ke6ZVaAxfTM6gCFIoAe4JR8WONewiopXawIgJCNzh/shtcyzwiATtOUIu+50AsYsi+KKgDocV3QmZgrQyh3otV3JVUAHMy5nuMUnccFoDAM6ITyIY9UAVAoAZCJ/6SJaBku0l7FNe7UkqwIEBXdiF4cZDGRO1Wxd30AF2YSTixaYhbnGaR4NN5erXrL05fWKgALoolD+uOPn5a/Qj9kABgPJRNiiTgc2db8dAYqmQYyAE7Fq978lEsbweCRLZAVJzRsqlGnMJDyAC4wcEjOKHqB03seK55yxrCnEM/bapGKACi2Wyt5fTmdxHrxzzHsHXULJ1UBcKEIIFHBPSmvrfVuAsimwdYA9ICf0pSbKGu92yGAn4f1Yf6xyGb2csKItgNw5nwsDNZ6uiWVMFqbAtCsQX2s9+EzjK05zD8cLWhTAKf+XWIfVdURbQ3gp51CtMZRh+mcOaT3GpG2BnCBgWNMQzGZYi56Dp88ePOYOEafVAMACvEtFkvBnZK412oGQGGkuf/h6cdWyKoxwOXqAK3VAVqrA7RWB2itDtBaNw/wH5k/xyOceCd9AAAAAElFTkSuQmCC" y="491.9766"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="109" x="44" y="567.5781">[Cognito User Pool]</text></g><!--MD5=[eb264305ab2cff6b1d77b6a0c36418fb]
+entity upsertFunction--><g id="elem_upsertFunction"><rect fill="#FFFFFF" height="131.1094" rx="2.5" ry="2.5" style="stroke:#FF9900;stroke-width:0.5;" width="151" x="225" y="449"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="271" y="470.6016">«Lambda»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="131" x="235" y="488.6016">Upsert Function</text><image height="64" width="64" x="268.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAACYUlEQVR4Xu2aQUsDMRCF+9v9B/4E/4DgzauePXjzqudQKIWCFEodGCxhX5N5mZ1kLe7yTm7czPdeMtlaN+nx7qa1wR/dllaApbUCLK0VYGn9S4Dt8/3+7YkXPiFQHoDDx8u55dq9PuBDouQHEGulsrpkjIw8pk98SJT8ALKQ8Bbq++u9awjdAaT0riF0BxBJ9U3jmzQCQEOQtYS35msEQOoZwiCAfiEMAkjdQvADnA47qWmiSrvUM0F+F2/NkQdAqsTS1eBjtV0Kc3gIHoCSzDOrRwiRAMyZFR5CJED63akjQwgGMNuleC8hiKJCCAZIRLu8vMziLYfiAZgQtAvjLYcCALSr5paPDCEAQMvNLdedOiaEuQC6YPTKLTfbpXlokJoLoPaj5Wa71BDqhwajWQB5Ebjux4QwCyCvAJvPmBD8ADj9xHI9s3qH4AfAudFybZeVEJjXp7qcAGi/CkM4W+0SN0+TnAClk6gUAo68CDdPkzwAdV8Hh+ABqJs6OIRmAMZRRwhmvyqpGcC0M12rBlvWRJgbqTYAbe2n6seRq+uh1LVyITajNgDGp9KO7BRCG4Bp0lX7VXwIx+xPNfW1mpoAGIdK9quYEPLqS17kagAg7a94bA6YKBKAsd80OFkRTRQJYNrPLPFU3SQoZiQFwMzK2K/iQzAnTSSAOSVpv4qxQ8UMswGY+ZjjOZfpiMqcNzEA5mRqf/1VZyKmJaQQALVfitvBl9gX6ern7VdpV9hXvy0PANDizKvJfpWGYF5zAbbc/3XsiOaDwuegKktXZQD8fa0AS2sFWForwNJaAZbWD9vq2LmAPvgfAAAAAElFTkSuQmCC" y="491.9766"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="24" x="288.5" y="567.5781">[C#]</text></g><!--MD5=[52a13355586352bc098c25ba7a5498c2]
+entity readFunction--><g id="elem_readFunction"><rect fill="#FFFFFF" height="131.1094" rx="2.5" ry="2.5" style="stroke:#FF9900;stroke-width:0.5;" width="137" x="411" y="449"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="450" y="470.6016">«Lambda»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="421" y="488.6016">Read Function</text><image height="64" width="64" x="447.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAACYUlEQVR4Xu2aQUsDMRCF+9v9B/4E/4DgzauePXjzqudQKIWCFEodGCxhX5N5mZ1kLe7yTm7czPdeMtlaN+nx7qa1wR/dllaApbUCLK0VYGn9S4Dt8/3+7YkXPiFQHoDDx8u55dq9PuBDouQHEGulsrpkjIw8pk98SJT8ALKQ8Bbq++u9awjdAaT0riF0BxBJ9U3jmzQCQEOQtYS35msEQOoZwiCAfiEMAkjdQvADnA47qWmiSrvUM0F+F2/NkQdAqsTS1eBjtV0Kc3gIHoCSzDOrRwiRAMyZFR5CJED63akjQwgGMNuleC8hiKJCCAZIRLu8vMziLYfiAZgQtAvjLYcCALSr5paPDCEAQMvNLdedOiaEuQC6YPTKLTfbpXlokJoLoPaj5Wa71BDqhwajWQB5Ebjux4QwCyCvAJvPmBD8ADj9xHI9s3qH4AfAudFybZeVEJjXp7qcAGi/CkM4W+0SN0+TnAClk6gUAo68CDdPkzwAdV8Hh+ABqJs6OIRmAMZRRwhmvyqpGcC0M12rBlvWRJgbqTYAbe2n6seRq+uh1LVyITajNgDGp9KO7BRCG4Bp0lX7VXwIx+xPNfW1mpoAGIdK9quYEPLqS17kagAg7a94bA6YKBKAsd80OFkRTRQJYNrPLPFU3SQoZiQFwMzK2K/iQzAnTSSAOSVpv4qxQ8UMswGY+ZjjOZfpiMqcNzEA5mRqf/1VZyKmJaQQALVfitvBl9gX6ern7VdpV9hXvy0PANDizKvJfpWGYF5zAbbc/3XsiOaDwuegKktXZQD8fa0AS2sFWForwNJaAZbWD9vq2LmAPvgfAAAAAElFTkSuQmCC" y="491.9766"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="24" x="467.5" y="567.5781">[C#]</text></g><!--MD5=[aab378e9bf203b4c99fa3d88ff5e382f]
+entity deleteFunction--><g id="elem_deleteFunction"><rect fill="#FFFFFF" height="131.1094" rx="2.5" ry="2.5" style="stroke:#FF9900;stroke-width:0.5;" width="148" x="583.5" y="449"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="628" y="470.6016">«Lambda»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="128" x="593.5" y="488.6016">Delete Function</text><image height="64" width="64" x="625.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAACYUlEQVR4Xu2aQUsDMRCF+9v9B/4E/4DgzauePXjzqudQKIWCFEodGCxhX5N5mZ1kLe7yTm7czPdeMtlaN+nx7qa1wR/dllaApbUCLK0VYGn9S4Dt8/3+7YkXPiFQHoDDx8u55dq9PuBDouQHEGulsrpkjIw8pk98SJT8ALKQ8Bbq++u9awjdAaT0riF0BxBJ9U3jmzQCQEOQtYS35msEQOoZwiCAfiEMAkjdQvADnA47qWmiSrvUM0F+F2/NkQdAqsTS1eBjtV0Kc3gIHoCSzDOrRwiRAMyZFR5CJED63akjQwgGMNuleC8hiKJCCAZIRLu8vMziLYfiAZgQtAvjLYcCALSr5paPDCEAQMvNLdedOiaEuQC6YPTKLTfbpXlokJoLoPaj5Wa71BDqhwajWQB5Ebjux4QwCyCvAJvPmBD8ADj9xHI9s3qH4AfAudFybZeVEJjXp7qcAGi/CkM4W+0SN0+TnAClk6gUAo68CDdPkzwAdV8Hh+ABqJs6OIRmAMZRRwhmvyqpGcC0M12rBlvWRJgbqTYAbe2n6seRq+uh1LVyITajNgDGp9KO7BRCG4Bp0lX7VXwIx+xPNfW1mpoAGIdK9quYEPLqS17kagAg7a94bA6YKBKAsd80OFkRTRQJYNrPLPFU3SQoZiQFwMzK2K/iQzAnTSSAOSVpv4qxQ8UMswGY+ZjjOZfpiMqcNzEA5mRqf/1VZyKmJaQQALVfitvBl9gX6ern7VdpV9hXvy0PANDizKvJfpWGYF5zAbbc/3XsiOaDwuegKktXZQD8fa0AS2sFWForwNJaAZbWD9vq2LmAPvgfAAAAAElFTkSuQmCC" y="491.9766"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="24" x="645.5" y="567.5781">[C#]</text></g><!--MD5=[f50ff5e4cd64f259303fc83dba1819fc]
+entity database--><g id="elem_database"><rect fill="#FFFFFF" height="131.1094" rx="2.5" ry="2.5" style="stroke:#FF9900;stroke-width:0.5;" width="150" x="404.5" y="684"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="75" x="442" y="705.6016">«DynamoDB»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="442" y="723.6016">Database</text><image height="64" width="64" x="447.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAADxUlEQVR4Xu1asYrcMBC9H58yjcs026W6Kt02KV2k3SLtQkgRyJFAIMWFFIGA76GHB63Glmdks86BxeO4s2XpvdHMaGTfg7z58qrxYC+9LhwC9sYhYG8cAvbGISChe/v19O7b4/sf5w8/FfgTF3HL9t8Q7QJA8fLp+en738HRnn//Q2c8srmesADYNSeN38Gs//gL5GDvAriIW4XO6+c/dthmBATAeMoDnKDE9qkDkqjW3mqGVwDmJvVtp18PrwA4Mdg3ezAehPJFNKyqSwCmX2l7Z6yj2WfrcAmg/zQHH+w6JP0wxBw4BSLEPl5HQEDbBDKa317PAXnog4nsrToCAhgG+InkaPvMQc1vb+XAsNBpry8iIID7K2UMaQcArUWbecxPkSG7KGIC+CfmQzyoEjaaENe542rPwWF+j8g5tAhQIPhAEfzAGyQAyAA03D3MmOLaokuiAjgZ+HkSttP8DF+WJIrFpxQuAWok/IKfo9cs7Gse8wP5gHmrD65wCZCRTe7c9UV3mr8ASDO0PCtMeAVwEYbkP4uZR8bSQ88GRN2oDezFL0A9lTIwUyWHqtqi1fdyDh5iL34BQ2IvY1mW51CmHUae2pjVgQLmH6oeVbioHy4BzELF9KB4Hg9lqmduTeqVQjN7CQkAS3vLCe4P9rqsYy8hAdQQ9VGpVuPwvblbTgQEcLIhBcNiSskx5z/r2UtIAFc5j2CG7zl7g5IHsT7OICnG3IS9NAjQK5hbs+pkY3/6T7HrkX19K3QiLMDGQJdKOm5VfXbApc8wgeb+w9phE/YSFaDRfHG/Vikqopw9E7E/libhEiDZRsbDAGXYbgUK/yF73Y85zp0EMJNAg87nWQH6D3tyBLLHIFuFgVcAbcmGWW1OnARZyi179cNhtfnFL4Cu3KfDl06vOXSOB/vk7Ak+OIxuuQYuAYUrd6mey5WwsV7Q3ZpHAiqfJDq3wYXgEsBFn/TXU/os0KdX0CzsAApQhZPsZRTgiaUKAgKik9XZc32iY1rEBAzuE5n6j73V3R6s7yeAfsJZn5beapFlMUhefWgc30+A1jb9/ImsT59qtKbAxWt6ZZR3vqS3GzKu0r0FKFgIkGKup2gqz1YN+wi4Vt9qddkbc3u3wP0EcB+g06tpJ7NqCLZQbYBLgNx+YsLERY3ZgC69BbIHnSi8AtT2/eozlIy2X29+8QuQZDPNJxf3eSDHKX1m5Qiw/Xr2EhJAPK7+0K21xiYIC1Awh+bMKo06bSZdj3YBObrX+M8e/wkOAXvjELA3DgF74xCwN14AdzgE4KRN4cQAAAAASUVORK5CYII=" y="726.9766"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="130" x="414.5" y="802.5781">[On-demand capacity]</text></g><!--MD5=[6202e7eb798744ff0fdfe27241ecc981]
+link sources to api--><g id="link_sources_api"><path d="M385.5,138.02 C385.5,163.64 385.5,193.22 385.5,219.6 " fill="none" id="sources-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="385.5,227.68,388.5,219.68,382.5,219.68,385.5,227.68" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="77" x="422" y="180.6016">Do REST call</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="148" x="386.5" y="194.7344">[REST over HTTPS (:443)]</text></g><!--MD5=[d661a74fed0696d021d1e74b266d5111]
+link api to userAuth--><g id="link_api_userAuth"><path d="M319.06,317.07 C278.73,332.96 227.82,357.09 189.5,389 C171.54,403.95 155.25,423.18 141.58,442.03 " fill="none" id="api-to-userAuth" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="136.66,448.95,143.7392,444.1662,138.8481,440.6909,136.66,448.95" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="190.5" y="401.6016">Validate identity</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="226.5" y="415.7344">[JWT]</text></g><!--MD5=[d7bc44a0440318150178324093a6b217]
+link api to upsertFunction--><g id="link_api_upsertFunction"><path d="M325.45,359.21 C319.13,368.67 313.55,378.71 309.5,389 C303.19,405.03 299.94,423.11 298.44,440.42 " fill="none" id="api-to-upsertFunction" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="297.85,448.84,301.4005,441.0686,295.4151,440.6503,297.85,448.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="59" x="341" y="401.6016">Proxy call</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="120" x="310.5" y="415.7344">[Lambda Integration]</text></g><!--MD5=[9607f696dee03191b8ae22866773b6b3]
+link api to readFunction--><g id="link_api_readFunction"><path d="M421.34,359.21 C426.33,369.07 431.21,379.23 435.5,389 C442.76,405.57 449.73,423.75 455.89,440.98 " fill="none" id="api-to-readFunction" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="458.67,448.82,458.8415,440.2777,453.1824,442.2713,458.67,448.82" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="59" x="478" y="401.6016">Proxy call</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="120" x="447.5" y="415.7344">[Lambda Integration]</text></g><!--MD5=[7ef87707547e65d617ef50c9d51d0b04]
+link api to deleteFunction--><g id="link_api_deleteFunction"><path d="M451.74,317.06 C491.11,332.81 540.28,356.8 576.5,389 C593.32,403.95 608.09,423.18 620.24,442.03 " fill="none" id="api-to-deleteFunction" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="624.6,448.95,622.8692,440.5831,617.7945,443.7843,624.6,448.95" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="59" x="636" y="401.6016">Proxy call</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="120" x="605.5" y="415.7344">[Lambda Integration]</text></g><!--MD5=[06c5b876576c9b8873f547060ed67598]
+link upsertFunction to database--><g id="link_upsertFunction_database"><path d="M306.13,580.03 C310.8,604.91 319.24,632.49 334.5,654 C350.64,676.75 374.14,695.43 397.54,710 " fill="none" id="upsertFunction-to-database" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="404.46,714.19,399.1702,707.4804,396.0628,712.6131,404.46,714.19" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="133" x="335.5" y="622.6016">Update or insert item</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="129" x="335.5" y="636.7344">[DynamoDB API via C#</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="374.5" y="650.8672">AWS SDK]</text></g><!--MD5=[7748d1f403390d868890103e59e12b5f]
+link readFunction to database--><g id="link_readFunction_database"><path d="M477.95,580.06 C477.76,590.08 477.6,600.32 477.5,610 C477.29,629.55 477.29,634.45 477.5,654 C477.58,661.11 477.68,668.52 477.81,675.92 " fill="none" id="readFunction-to-database" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="477.95,683.94,480.8067,675.8877,474.8076,675.9948,477.95,683.94" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="68" x="511" y="622.6016">Get item(s)</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="129" x="478.5" y="636.7344">[DynamoDB API via C#</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="517.5" y="650.8672">AWS SDK]</text></g><!--MD5=[a78740507ac7ce7fcaddbb4848242721]
+link deleteFunction to database--><g id="link_deleteFunction_database"><path d="M647.84,580.26 C641.82,605.04 632.1,632.48 616.5,654 C602.02,673.97 581.97,691.12 561.67,705.12 " fill="none" id="deleteFunction-to-database" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="554.78,709.75,563.0918,707.7715,559.7414,702.7941,554.78,709.75" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="72" x="670" y="622.6016">Delete item</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="129" x="639.5" y="636.7344">[DynamoDB API via C#</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="678.5" y="650.8672">AWS SDK]</text></g><!--MD5=[b3dcf166ea8a04296b6476a56d173d05]
+@startuml management-component
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!include <awslib/AWSCommon>
+
+' Entities
+!include <awslib/General/Users>
+!include <awslib/Mobile/APIGateway>
+!include <awslib/SecurityIdentityAndCompliance/Cognito>
+!include <awslib/Compute/Lambda>
+!include <awslib/Database/DynamoDB>
+
+Users(sources, "Pet Owners", "Authenticated with valid JWT")
+APIGateway(api, "API", "REST API Gateway")
+Cognito(userAuth, "User Authentication", "Cognito User Pool")
+Lambda(upsertFunction, "Upsert Function", "C#")
+Lambda(readFunction, "Read Function", "C#")
+Lambda(deleteFunction, "Delete Function", "C#")
+DynamoDB(database, "Database", "On-demand capacity")
+
+' Relations
+Rel(sources, api, "Do REST call", "REST over HTTPS (:443)")
+Rel(api, userAuth, "Validate identity", "JWT")
+Rel(api, upsertFunction, "Proxy call", "Lambda Integration")
+Rel(api, readFunction, "Proxy call", "Lambda Integration")
+Rel(api, deleteFunction, "Proxy call", "Lambda Integration")
+
+Rel(upsertFunction, database, "Update or insert item", "DynamoDB API via C# AWS SDK")
+Rel(readFunction, database, "Get item(s)", "DynamoDB API via C# AWS SDK")
+Rel(deleteFunction, database, "Delete item", "DynamoDB API via C# AWS SDK")
+
+@enduml
+
+@startuml management-component
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam actor<<component>> {
+    StereotypeFontColor #85BBF0
+    FontColor #85BBF0
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam person<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam actor<<external_component>> {
+    StereotypeFontColor #CCCCCC
+    FontColor #CCCCCC
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam person<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+
+
+
+
+
+
+
+
+
+sprite $Users [64x64/16] {
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000024310000000000000000000000134300000000000000000
+000000000000004ADDDDDB71000000000000000016BDDDDDA500000000000000
+0000000000002ADDDDDDDDDC5000000000000004CDDDDDDDDDB2000000000000
+000000000003CDDC96457BDDD70000000000006DDDB85459CDDC300000000000
+00000000002CDD910000005CDD600000000005DDC600000018DDC20000000000
+0000000000ADD70000000003CDC2000000001CDC30000000006DDA0000000000
+0000000003DD9000000000004DD8000000008DD5000000000009DD4000000000
+0000000008DD2000000000000ADC00000000CDA0000000000001DD9000000000
+000000000CDA00000000000005DD40000003DD60000000000000ADC000000000
+000000000DD800000000000003DD50000005DD300000000000007DD100000000
+000000001DD700000000000002DD60000005DD200000000000006DD200000000
+000000000CD800000000000003DD50000004DD400000000000007DD000000000
+000000000BDB00000000000006DD30000002DD70000000000000BDC000000000
+0000000007DD3000000000000BDC00000000BDB0000000000003DD8000000000
+0000000002DDB000000000006DD7000000006DD700000000000ADD2000000000
+00000000007DD90000000005DDB1000000000BDD60000000009DD80000000000
+00000000000BDDB40000028DDD300000000003CDD92000004BDDB00000000000
+000000000001ADDDC988BDDDC40000000000003CDDDB888CDDDA100000000000
+0000000000003CDDDDDDDDDD7000000000000007DDDDDDDDDDC3000000000000
+000000000029DDDDDDDDDDDDDB500000000005BDDDDDDDDDDDDD930000000000
+0000000006CDDDB74211359CDDD9100000019DDDC96321246ADDDD7000000000
+000000009DDD9200000000016CDD70000007DDC7100000000029DDD900000000
+00000009DDC400000000000001A9000000009A100000000000003CDDA0000000
+0000008DDB10000000000000000000000000000000000000000001BDD8000000
+000005DDB1000000000000000000002332000000000000000000001BDD500000
+00001CDC200000000000000000028CDDDDC820000000000000000002CDC10000
+00007DD60000000000000000008DDDDDDDDDD80000000000000000006DD70000
+0000CDB000000000000000000ADDDA7446ADDDA100000000000000000BDC0000
+0005DD6000000000000000009DDB30000003BDDA000000000000000005DD5000
+0009DD100000000000000005DDA1000000000ADD600000000000000001DD9000
+000CDA00000000000000000CDC100000000001CDC00000000000000000ADC000
+001DD800000000000000004DD60000000000006DD400000000000000007DD100
+002DD844444444444430007DD10000000000001DD800034444444444448DD300
+003DDDDDDDDDDDDDDD80009DC00000000000000BDA0008DDDDDDDDDDDDDDD300
+002DDDDDDDDDDDDDDD8000ADB00000000000000ADA0008DDDDDDDDDDDDDDD200
+00024444444444444430008DC00000000000000CD90003444444444444442000
+00000000000000000000007DD20000000000002DD70000000000000000000000
+00000000000000000000003DD80000000000007DD30000000000000000000000
+00000000000000000000000ADD300000000002CDB00000000000000000000000
+000000000000000000000003DDC2000000002BDD400000000000000000000000
+0000000000000000000000007DDC60000006CDD7000000000000000000000000
+00000000000000000000000007DDDCA889CDDD70000000000000000000000000
+00000000000000000000000001ADDDDDDDDDDB10000000000000000000000000
+0000000000000000000000007CDDDDDDDDDDDDC7100000000000000000000000
+00000000000000000000003BDDDC84311247CDDDC40000000000000000000000
+0000000000000000000005DDDB500000000004BDDD6000000000000000000000
+000000000000000000006DDD7000000000000007DDD600000000000000000000
+00000000000000000004DDC400000000000000004CDD40000000000000000000
+0000000000000000001CDD40000000000000000004DDC1000000000000000000
+0000000000000000008DD6000000000000000000006DD9000000000000000000
+000000000000000003DDA0000000000000000000000ADD200000000000000000
+000000000000000008DD300000000000000000000003DD800000000000000000
+00000000000000001CDA000000000000000000000000ADC00000000000000000
+00000000000000004DD50000000000000000000000005DD40000000000000000
+00000000000000007DD10000000000000000000000001DD70000000000000000
+0000000000000000ADC00000000000000000000000000BDA0000000000000000
+0000000000000000BDB44444444444444444444444444BDB0000000000000000
+0000000000000000CDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDC0000000000000000
+0000000000000000BDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDB0000000000000000
+0000000000000000144444444444444444444444444444410000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+}
+
+skinparam rectangle<<Users>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+skinparam participant<<Users>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+sprite $APIGateway [64x64/16] {
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAA858AAAAAAAAAAAAAAAA858AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAA84005AAAAAAAAAAAAAAAA50048AAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAA8400005AAAAAAAAAAAAAAAA5000048AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAA830016705AAAAAAAAAAAAAAAA507610038AAAAAAAAAAAAAAA
+AAAAAAAAAAAAA830016AB705AAAAAAAAAAAAAAAA507B9610038AAAAAAAAAAAAA
+AAAAAAAAAAA830026AAAA705AAAAAAAAAAAAAAAA507AAAA620038AAAAAAAAAAA
+AAAAAAAAAA70026AAAAAA705AAAAAAAAAAAAAAAA507AAAAAA62007AAAAAAAAAA
+AAAAAAAAAA605AAAAAAAA705AAAAAAAAAAAAAAAA507AAAAAAAA506AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAAAAAAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705BAAAAAAAAAAAAAAB507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA70489A9779A9779AA78407AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA70008A7007A8005A900007AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA70259A9558A9558A955207AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705BAAAAAAAAAAAAAAB507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAAAAAAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAAAA98AAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAAAA506AAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAA74AAA20857AAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AA6008A8028006AA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705A4017AA505A7104A507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA7058007BAA208AB7008507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705A4018A802AA8104A507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AA5009506A8005AA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAA64A208AA46AAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAA802AAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAA606AAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAA89AAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAAAAAAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705BAAAAAAAAAAAAAAB507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA70259A9558A9558A955207AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA70008A7007A8005A900007AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA70489A9779A9779AA78407AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705BAAAAAAAAAAAAAAB507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAAAAAAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606AAAAAAAA705AAAAAAAAAAAAAAAA507AAAAAAAA606AAAAAAAAAA
+AAAAAAAAAA606BAAAAAAA705AAAAAAAAAAAAAAAA507AAAAAAAB606AAAAAAAAAA
+AAAAAAAAAA60269AAAAAA705AAAAAAAAAAAAAAAA507AAAAAA96206AAAAAAAAAA
+AAAAAAAAAA81000369AAA705AAAAAAAAAAAAAAAA507AAA96300018AAAAAAAAAA
+AAAAAAAAAAAA841000369705AAAAAAAAAAAAAAAA507963000148AAAAAAAAAAAA
+AAAAAAAAAAAAAAA851000205AAAAAAAAAAAAAAAA502000158AAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAA841005AAAAAAAAAAAAAAAA500148AAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAA858AAAAAAAAAAAAAAAA858AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+}
+
+skinparam rectangle<<APIGateway>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+skinparam participant<<APIGateway>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+sprite $Cognito [64x64/16] {
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA87777777777777777777777777777777778AAAAAAAAAAAAAAAA
+AAAAAAAAAAA920000000000000000000000000000000000029AAAAAAAAAAAAAA
+AAAAAAAAAAA303555555555555555555555555555555555302AAAAAAAAAAAAAA
+AAAAAAAAAA902AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA208AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAAA99999999999999999AAA408AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA9200000000000000003AA408AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA90022222222222222019A408AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA903AAAAA7558AAAAA119A408AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA903AAA81000039AAA11AB408AAAAAAAAAAAAA
+AAAAAAAAAA80132222222222222203AA910476203AAA1023108AAAAAAAAAAAAA
+AAAAAAAAAA80000000000000000003AA405AAAA207AA1000008AAAAAAAAAAAAA
+AAAAAAAAAA80399999999999999803AA209AAAA704AA1189308AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA903AA119AAAA804AA11AB408AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA903AA307AAAA406AA119A408AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA903AA8017995019AA119A408AAAAAAAAAAAAA
+AAAAAAAAAA803A4222222224AAA903A95000100016AA119A408AAAAAAAAAAAAA
+AAAAAAAAAA803A3000000003AAA9039201431144004A119A408AAAAAAAAAAAAA
+AAAAAAAAAA803A9999999999AAA9022039AAAAAA8204109A408AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA90004AAAAAAAAA91133AA408AAAAAAAAAAAAA
+AAAAAAAAAA803A6555558A557AA90019AAAAAAAAAA99AAAA649AAAAAAAAAAAAA
+AAAAAAAAAA803A20000069003AA9005AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAA803A8777779A778AA9008AAAAAAAAAAAA999AAAAAAAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA900799999AAAA852000259AAAAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAA900000003AAA50002220005AAAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAAA43333335AA40159AAA95004AAAAAAAAAAAAA
+AAAAAAAAAA803AAAAAAAAAAAAAAAAAAAAAAAA5029AAAAAAA9205AAAAAAAAAAAA
+AAAAAAAAAA9019AAAAAAAAAAAAAAAAAAAAAA8019AAAAAAAAA9108AAAAAAAAAAA
+AAAAAAAAAAA5002222222222222222228AAA406AAAAAAAA77B604AAAAAAAAAAA
+AAAAAAAAAAAA510000000000000000007AA9119AAAAAAA7009901AAAAAAAAAAA
+AAAAAAAAAAAAAA999999999999999999AAA803AAAAAAA7006AA309AAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA804AA44AA7006AAA308AAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA803A91057006AAAA308AAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA901AA810006AAAAA119AAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA307AA8106AAAAA703AAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA702AAA98AAAAAA207AAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA303AAAAAAAAA303AAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA92028AAAAA82029AAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9300245420039AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA720000027AAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA97779AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+}
+
+skinparam rectangle<<Cognito>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+skinparam participant<<Cognito>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+sprite $Lambda [64x64/16] {
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888875555555555555558888888888888888888888888888888
+8888888888888888840000000000000006888888888888888888888888888888
+8888888888888888840566666666666502888888888888888888888888888888
+8888888888888888840788888888888830688888888888888888888888888888
+8888888888888888840788888888888860288888888888888888888888888888
+8888888888888888840788888888888882078888888888888888888888888888
+8888888888888888840788888888888886038888888888888888888888888888
+8888888888888888840788888888888888207888888888888888888888888888
+8888888888888888840788888888888888603888888888888888888888888888
+8888888888888888840788888888888888820788888888888888888888888888
+8888888888888888840122222268888888850488888888888888888888888888
+8888888888888888862222222028888888881078888888888888888888888888
+8888888888888888888888888306888888885048888888888888888888888888
+8888888888888888888888888602888888888107888888888888888888888888
+8888888888888888888888888820688888888504888888888888888888888888
+8888888888888888888888888860388888888711788888888888888888888888
+8888888888888888888888888882078888888840588888888888888888888888
+8888888888888888888888888886038888888870188888888888888888888888
+8888888888888888888888627888207888888884058888888888888888888888
+8888888888888888888888203888503888888887018888888888888888888888
+8888888888888888888886000788810788888888306888888888888888888888
+8888888888888888888882050388850488888888702888888888888888888888
+8888888888888888888870282078881078888888830688888888888888888888
+8888888888888888888830686038885048888888870288888888888888888888
+8888888888888888888702888107887107888888883068888888888888888888
+8888888888888888888306888504888404888888886028888888888888888888
+8888888888888888887028888810788701888888888207888888888888888888
+8888888888888888884058888850488840588888888603888888888888888888
+8888888888888888870188888881078870188888888820788888888888888888
+8888888888888888840588888885048884058888888860388888888888888888
+8888888888888888701888888888107887018888888881078888888888888888
+8888888888888888405888888888107888306888888885048888888888888888
+8888888888888887117888888886038888702888888888107888888888888888
+8888888888888885048888888882078888830688888888504888888888888888
+8888888888888881078888888860388888870288888888810222258888888888
+8888888888888850488888888820788888883068888888852222038888888888
+8888888888888810788888888602888888886028888888888888038888888888
+8888888888888504888888888306888888888207888888888888038888888888
+8888888888888107888888887028888888888603888888888888038888888888
+8888888888886038888888883068888888888820788888888888038888888888
+8888888888882078888888870288888888888860388888888888038888888888
+8888888888860388888888840588888888888882078888888888038888888888
+8888888888820788888888701888888888888885048888888888038888888888
+8888888888601666666666305888888888888888105666666666038888888888
+8888888888300000000000018888888888888888500000000000038888888888
+8888888888755555555555568888888888888888855555555555578888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888
+}
+
+skinparam rectangle<<Lambda>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+skinparam participant<<Lambda>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+sprite $DynamoDB [64x64/16] {
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA9876666789AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAA6420000000000001469AAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA72000245688888865420003AAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAA920047AAAAAAAAAAAAAAAA845AAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA8005AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA109AAAAAAAAAAAAAAAAAA95555555555557AAAAAAAAAAAAAAAA
+AAAAAAAAAAAA905AAAAAAAAAAAAAAAAAAA20000000000000AAAAAAAAAAAAAAAA
+AAAAAAAAAAAA803AAAAAAAAAAAAAAAAAA705999999999804AAAAAAAAAAAAAAAA
+AAAAAAAAAAAA8004AAAAAAAAAAAAAAAAA20AAAAAAAAAA508AAAAAAAAAAAAAAAA
+AAAAAAAAAAAA801016AAAAAAAAAAAAAA705AAAAAAAAAA12AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA8066100258AAAAAAAAAA20AAAAAAAAAA706AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806AA731000012346AA705AAAAAAAAAA20AAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806AAAAA975322113AA20AAAAAAAAAA904AAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA8069037AAAAAAAAAAA705AAAAAAAAAA50244445AAAAAAAAAAAAA
+AAAAAAAAAAAA904940009AAAAAAAAA20AAAAAAAAAAA400000009AAAAAAAAAAAA
+AAAAAAAAAAAAA206AA74AAAAAAAAA705AAAAAAAAAAAAAAA9107AAAAAAAAAAAAA
+AAAAAAAAAAAAA90038AAAAAAAAAAA10666669AAAAAAAAA9107AAAAAAAAAAAAAA
+AAAAAAAAAAAAA50200158AAAAAAA900000003AAAAAAAAA207AAAAAAAAAAAAAAA
+AAAAAAAAAAAAA02A95100013459AA98888605AAAAAAAA206AAAAAAAAAAAAAAAA
+AAAAAAAAAAAA805AAAA96421008AAAAAAA508AAAAAAA206AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA801AAAAAAAAAAAAAAAAAAA11AAAAAAA206AAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA80017AAAAAAAAAAAAAAAA905AAAAAA305AAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA80300269AAAAAAAAAAAAA508AAAAA305AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806A51001367899AA9AAA21AAAAA305AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806AAA8520000000006A904AAAA304AAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806A7AAAAA976655558A608AAA404AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA80680047AAAAAAAAAAAA20AAA404A969AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA02A7300AAAAAAAAAAA904AA403AA309AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA5029AA7AAAAAAAAAAA607A503A9304AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA900048AAAAAAAAAAAA30A503A80009AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA20530003679AAAAAAA03503AAA3602AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA904AA953000001117A70202AAAAAA508AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA804AAAAAA87544227A3002AAAAAAA507AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA8007AAAAAAAAAAAAAA002AAAAAAA7007AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA800038AAAAAAAAAAA702AAAAAA940007AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA805400258AAAAAAAA94AAAA852003607AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806A951000134556655432000149A707AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806AAAA964310000000013469AAAA707AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA806A37AAAAAAAA9999AAAAAAAAAAA707AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA90580004AAAAAAAAAAAAAAAAAAAAA608AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA109A620AAAAAAAAAAAAAAAAAAAA911AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA8005AAAAAAAAAAAAAAAAAAAAAA6008AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAA920047AAAAAAAAAAAAAAAA840018AAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA720002456888888654200027AAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAA6420000000000002469AAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA9876666789AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+}
+
+skinparam rectangle<<DynamoDB>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+skinparam participant<<DynamoDB>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+
+rectangle "==Pet Owners\n<color:#232F3E><$Users></color>\n//<size:12>[Authenticated with valid JWT]</size>//" <<Users>> as sources
+rectangle "==API\n<color:#D6242D><$APIGateway></color>\n//<size:12>[REST API Gateway]</size>//" <<APIGateway>> as api
+rectangle "==User Authentication\n<color:#D6242D><$Cognito></color>\n//<size:12>[Cognito User Pool]</size>//" <<Cognito>> as userAuth
+rectangle "==Upsert Function\n<color:#D86613><$Lambda></color>\n//<size:12>[C#]</size>//" <<Lambda>> as upsertFunction
+rectangle "==Read Function\n<color:#D86613><$Lambda></color>\n//<size:12>[C#]</size>//" <<Lambda>> as readFunction
+rectangle "==Delete Function\n<color:#D86613><$Lambda></color>\n//<size:12>[C#]</size>//" <<Lambda>> as deleteFunction
+rectangle "==Database\n<color:#3B48CC><$DynamoDB></color>\n//<size:12>[On-demand capacity]</size>//" <<DynamoDB>> as database
+
+sources - ->> api : **Do REST call**\n//<size:12>[REST over HTTPS (:443)]</size>//
+api - ->> userAuth : **Validate identity**\n//<size:12>[JWT]</size>//
+api - ->> upsertFunction : **Proxy call**\n//<size:12>[Lambda Integration]</size>//
+api - ->> readFunction : **Proxy call**\n//<size:12>[Lambda Integration]</size>//
+api - ->> deleteFunction : **Proxy call**\n//<size:12>[Lambda Integration]</size>//
+
+upsertFunction - ->> database : **Update or insert item**\n//<size:12>[DynamoDB API via C# AWS SDK]</size>//
+readFunction - ->> database : **Get item(s)**\n//<size:12>[DynamoDB API via C# AWS SDK]</size>//
+deleteFunction - ->> database : **Delete item**\n//<size:12>[DynamoDB API via C# AWS SDK]</size>//
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 19:34:49 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: NL
+--></g></svg>

@@ -1,0 +1,28 @@
+@startuml feeding-reminder-service
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+' Entities
+Person(pet_owner, "Pet Owner")
+System_Boundary(pet_feeding_platform, "Pet Feeding Platform") {
+    Container(pet_feeding_data_store, "Pet Feeding Data Store", "AWS Serverless", "Stores all data related to feeding of pets and allows it to be retrieved and changed.")
+    Container_Boundary(feeding_reminder_service, "Feeding Reminder Service") {
+        Component(website, "Website", "React & S3", "Web interface which allows users to configure their notifications.")
+        Component(notification_management, "Notification Management", "DynamoDB & API Gateway & C# Lambda's", "Keeps track of configured notifications and allows them to be changed via a REST API.")
+        Component(notification_scheduler, "Notification Scheduler", "CloudWatch Events & C# Lambda's", "On a scheduled basis get notifications that have to be sent")
+        Component(notifier, "Notifier", "SNS & C# Lambda's", "Send feeding instruction notifications to the pet owners")
+    }
+}
+
+' Relations
+Rel(pet_owner, website, "View feeding reminders interface", "HTTPS:443 via Browser")
+Rel(pet_owner, notification_management, "Get & Set feeding reminders", "REST over HTTPS (:443)")
+
+Rel(notification_scheduler, notification_management, "Retrieve notifications to send", "REST over HTTPS (:443)")
+Rel(notification_scheduler, pet_feeding_data_store, "Retrieve feeding instructions", "REST over HTTPS (:443)")
+Rel(notification_scheduler, notifier, "Create notifications", "SNS Event")
+
+Rel(notifier, pet_owner, "Send feeding reminder", "SNS SMS")
+
+@enduml

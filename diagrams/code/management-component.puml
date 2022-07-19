@@ -1,0 +1,31 @@
+@startuml management-component
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!include <awslib/AWSCommon>
+
+' Entities
+!include <awslib/General/Users>
+!include <awslib/Mobile/APIGateway>
+!include <awslib/SecurityIdentityAndCompliance/Cognito>
+!include <awslib/Compute/Lambda>
+!include <awslib/Database/DynamoDB>
+
+Users(sources, "Pet Owners", "Authenticated with valid JWT")
+APIGateway(api, "API", "REST API Gateway")
+Cognito(userAuth, "User Authentication", "Cognito User Pool")
+Lambda(upsertFunction, "Upsert Function", "C#")
+Lambda(readFunction, "Read Function", "C#")
+Lambda(deleteFunction, "Delete Function", "C#")
+DynamoDB(database, "Database", "On-demand capacity")
+
+' Relations
+Rel(sources, api, "Do REST call", "REST over HTTPS (:443)")
+Rel(api, userAuth, "Validate identity", "JWT")
+Rel(api, upsertFunction, "Proxy call", "Lambda Integration")
+Rel(api, readFunction, "Proxy call", "Lambda Integration")
+Rel(api, deleteFunction, "Proxy call", "Lambda Integration")
+
+Rel(upsertFunction, database, "Update or insert item", "DynamoDB API via C# AWS SDK")
+Rel(readFunction, database, "Get item(s)", "DynamoDB API via C# AWS SDK")
+Rel(deleteFunction, database, "Delete item", "DynamoDB API via C# AWS SDK")
+
+@enduml

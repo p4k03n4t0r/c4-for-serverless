@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="755px" preserveAspectRatio="none" style="width:1026px;height:755px;background:#FFFFFF;" version="1.1" viewBox="0 0 1026 755" width="1026px" zoomAndPan="magnify"><defs/><g><!--MD5=[4c629ed68c1d2d914489ec476a5bf089]
+cluster pet_feeding_platform--><g id="cluster_pet_feeding_platform"><rect height="555" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="765" x="255" y="7"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="170" x="552.5" y="24.4688">Pet Feeding Platform</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="53" x="611" y="39.4453">[System]</text></g><!--MD5=[dfd761d6e6af743edb3bedf3947597e3]
+cluster feeding_reminder_service--><g id="cluster_feeding_reminder_service"><rect height="472" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="491" x="279" y="66"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="211" x="419" y="83.4688">Feeding Reminder Service</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="490" y="98.4453">[Container]</text></g><!--MD5=[ef5b65fbbbace3b08ec5158ff64fa240]
+entity pet_feeding_data_store--><g id="elem_pet_feeding_data_store"><rect fill="#438DD5" height="118.9297" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="217" x="786.5" y="378.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="183" x="803.5" y="403.9688">Pet Feeding Data Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="94" x="848" y="418.9453">[AWS Serverless]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="893" y="435.0117"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="809.5" y="451.5">Stores all data related to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="796.5" y="467.9883">feeding of pets and allows it</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="796.5" y="484.4766">to be retrieved and changed.</text></g><!--MD5=[e9053c6dbb891ad4199c45de881c9d13]
+entity website--><g id="elem_website"><rect fill="#85BBF0" height="118.9297" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="208" x="295" y="124"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="63" x="367.5" y="149.4688">Website</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="70" x="364" y="164.4453">[React &amp; S3]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="397" y="180.5117"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="305" y="197">Web interface which allows</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="316.5" y="213.4883">users to configure their</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="354.5" y="229.9766">notifications.</text></g><!--MD5=[0c60b0b97dc640e99ee5fd8525ac109a]
+entity notification_management--><g id="elem_notification_management"><rect fill="#85BBF0" height="168.3945" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="210" x="295" y="354"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="350" y="379.4688">Notification</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="106" x="347" y="398.3125">Management</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="186" x="305" y="413.2891">[DynamoDB &amp; API Gateway &amp; C#</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="60" x="370" y="427.4219">Lambda's]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="398" y="443.4883"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="310" y="459.9766">Keeps track of configured</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="317" y="476.4648">notifications and allows</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="312" y="492.9531">them to be changed via a</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="368" y="509.4414">REST API.</text></g><!--MD5=[d1c2b6e6bd65dd00ff5a9ee6dd36c0d3]
+entity notification_scheduler--><g id="elem_notification_scheduler"><rect fill="#85BBF0" height="133.0625" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="215" x="538.5" y="117"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="555.5" y="142.4688">Notification Scheduler</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="144" x="572" y="157.4453">[CloudWatch Events &amp; C#</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="60" x="616" y="171.5781">Lambda's]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="644" y="187.6445"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="558.5" y="204.1328">On a scheduled basis get</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="548.5" y="220.6211">notifications that have to be</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="631.5" y="237.1094">sent</text></g><!--MD5=[6c43d2e6af88630f7a78f6778e8f008b]
+entity notifier--><g id="elem_notifier"><rect fill="#85BBF0" height="118.9297" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="192" x="540" y="378.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="605.5" y="403.9688">Notifier</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="121" x="575.5" y="418.9453">[SNS &amp; C# Lambda's]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="634" y="435.0117"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="550" y="451.5">Send feeding instruction</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="556.5" y="467.9883">notifications to the pet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="611" y="484.4766">owners</text></g><!--MD5=[400217d9ee4a418cd657e7fdcbca4ec6]
+entity pet_owner--><g id="elem_pet_owner"><rect fill="#08427B" height="86.8438" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="104" x="7" y="140"/><image height="48" width="48" x="35" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="150"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="84" x="17" y="213.4688">Pet Owner</text></g><!--MD5=[8e03fbc5f8a978cc953bc6f7826bc0d5]
+link pet_owner to website--><g id="link_pet_owner_website"><path d="M111.01,183.5 C157.56,183.5 227.4,183.5 286.64,183.5 " fill="none" id="pet_owner-to-website" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="294.93,183.5,286.93,180.5,286.93,186.5,294.93,183.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="147" x="129.5" y="149.1016">View feeding reminders</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="54" x="176" y="163.2344">interface</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="144" x="131" y="177.3672">[HTTPS:443 via Browser]</text></g><!--MD5=[c32850777b59d53ff095195130ab3f06]
+link pet_owner to notification_management--><g id="link_pet_owner_notification_management"><path d="M46.84,227.22 C41.02,257.09 39.08,296.41 59,324 C110.54,395.37 208.91,422.39 286.8,432.27 " fill="none" id="pet_owner-to-notification_management" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="294.75,433.23,287.1664,429.2944,286.4485,435.2513,294.75,433.23" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="108" x="78" y="292.6016">Get &amp; Set feeding</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="102.5" y="306.7344">reminders</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="148" x="60" y="320.8672">[REST over HTTPS (:443)]</text></g><!--MD5=[efb4a8d2961efe42a19cfa006d75b275]
+link notification_scheduler to notification_management--><g id="link_notification_scheduler_notification_management"><path d="M538.32,241.05 C501.31,260.66 468.62,278.23 467,280 C449.74,298.82 436.51,322.76 426.55,346.24 " fill="none" id="notification_scheduler-to-notification_management" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="423.43,353.84,429.247,347.582,423.6978,345.3002,423.43,353.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="150" x="468" y="292.6016">Retrieve notifications to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="30" x="528" y="306.7344">send</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="148" x="469" y="320.8672">[REST over HTTPS (:443)]</text></g><!--MD5=[23ba0ae19d507cd1767b4bdc3b1fe528]
+link notification_scheduler to pet_feeding_data_store--><g id="link_notification_scheduler_pet_feeding_data_store"><path d="M729.34,250.04 C740.6,259.77 751.78,269.93 762,280 C790.85,308.45 820.24,342.51 844.04,371.62 " fill="none" id="notification_scheduler-to-pet_feeding_data_store" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="849.34,378.14,846.6082,370.0445,841.9587,373.8369,849.34,378.14" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="101" x="822.5" y="292.6016">Retrieve feeding</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="837.5" y="306.7344">instructions</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="148" x="801" y="320.8672">[REST over HTTPS (:443)]</text></g><!--MD5=[44339ca0750176d51d01165f66b4ac79]
+link notification_scheduler to notifier--><g id="link_notification_scheduler_notifier"><path d="M632.76,250.05 C631.2,260.05 629.86,270.27 629,280 C626.39,309.56 627.26,342.34 629.13,370.27 " fill="none" id="notification_scheduler-to-notifier" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="629.71,378.39,632.1314,370.1963,626.1467,370.6245,629.71,378.39" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="123" x="630" y="299.6016">Create notifications</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="64" x="659.5" y="313.7344">[SNS Event]</text></g><!--MD5=[f2224c2ad05e33fc98a47df147482bd8]
+link notifier to pet_owner--><g id="link_notifier_pet_owner"><path d="M567.55,378.39 C553.55,368.87 538.37,360.14 523,354 C424.81,314.78 386.76,359.04 287,324 C282.37,322.37 184.11,261.87 118.11,221.08 " fill="none" id="notifier-to-pet_owner" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="111.03,216.71,116.2496,223.4743,119.4103,218.3743,111.03,216.71" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="288" y="299.6016">Send feeding reminder</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="331" y="313.7344">[SNS SMS]</text></g><rect height="164.3945" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="159" x="845" y="575"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="51" x="851" y="596.5352">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="902" y="596.5352"> </text><rect fill="#08427B" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="599.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="855" y="613.0234">person</text><rect fill="#1168BD" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="615.9766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="855" y="629.5117">system</text><rect fill="#438DD5" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="632.4648"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="855" y="646">container</text><rect fill="#85BBF0" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="648.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="855" y="662.4883">component</text><rect fill="#686868" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="665.4414"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="855" y="678.9766">external person</text><rect fill="#999999" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="681.9297"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="855" y="695.4648">external system</text><rect fill="#B3B3B3" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="698.418"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="855" y="711.9531">external container</text><rect fill="#CCCCCC" height="16.4883" style="stroke:none;stroke-width:1.0;" width="147" x="851" y="714.9063"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="855" y="728.4414">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="583" y2="583"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="599.4883" y2="599.4883"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="615.9766" y2="615.9766"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="632.4648" y2="632.4648"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="648.9531" y2="648.9531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="665.4414" y2="665.4414"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="681.9297" y2="681.9297"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="698.418" y2="698.418"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="714.9063" y2="714.9063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="998" y1="731.3945" y2="731.3945"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="851" x2="851" y1="583" y2="731.3945"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="998" y1="583" y2="731.3945"/><!--MD5=[0eb1ea5b17ccde0174506836dea2b558]
+@startuml feeding-reminder-service
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+' Entities
+Person(pet_owner, "Pet Owner")
+System_Boundary(pet_feeding_platform, "Pet Feeding Platform") {
+    Container(pet_feeding_data_store, "Pet Feeding Data Store", "AWS Serverless", "Stores all data related to feeding of pets and allows it to be retrieved and changed.")
+    Container_Boundary(feeding_reminder_service, "Feeding Reminder Service") {
+        Component(website, "Website", "React & S3", "Web interface which allows users to configure their notifications.")
+        Component(notification_management, "Notification Management", "DynamoDB & API Gateway & C# Lambda's", "Keeps track of configured notifications and allows them to be changed via a REST API.")
+        Component(notification_scheduler, "Notification Scheduler", "CloudWatch Events & C# Lambda's", "On a scheduled basis get notifications that have to be sent")
+        Component(notifier, "Notifier", "SNS & C# Lambda's", "Send feeding instruction notifications to the pet owners")
+    }
+}
+
+' Relations
+Rel(pet_owner, website, "View feeding reminders interface", "HTTPS:443 via Browser")
+Rel(pet_owner, notification_management, "Get & Set feeding reminders", "REST over HTTPS (:443)")
+
+Rel(notification_scheduler, notification_management, "Retrieve notifications to send", "REST over HTTPS (:443)")
+Rel(notification_scheduler, pet_feeding_data_store, "Retrieve feeding instructions", "REST over HTTPS (:443)")
+Rel(notification_scheduler, notifier, "Create notifications", "SNS Event")
+
+Rel(notifier, pet_owner, "Send feeding reminder", "SNS SMS")
+
+@enduml
+
+@startuml feeding-reminder-service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam actor<<component>> {
+    StereotypeFontColor #85BBF0
+    FontColor #85BBF0
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam person<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam actor<<external_component>> {
+    StereotypeFontColor #CCCCCC
+    FontColor #CCCCCC
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam person<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+rectangle "<$person>\n==Pet Owner" <<person>> as pet_owner 
+rectangle "==Pet Feeding Platform\n<size:12>[System]</size>" <<boundary>> as pet_feeding_platform  {
+    rectangle "==Pet Feeding Data Store\n//<size:12>[AWS Serverless]</size>//\n\nStores all data related to feeding of pets and allows it to be retrieved and changed." <<container>> as pet_feeding_data_store 
+rectangle "==Feeding Reminder Service\n<size:12>[Container]</size>" <<boundary>> as feeding_reminder_service  {
+        rectangle "==Website\n//<size:12>[React & S3]</size>//\n\nWeb interface which allows users to configure their notifications." <<component>> as website 
+        rectangle "==Notification Management\n//<size:12>[DynamoDB & API Gateway & C# Lambda's]</size>//\n\nKeeps track of configured notifications and allows them to be changed via a REST API." <<component>> as notification_management 
+        rectangle "==Notification Scheduler\n//<size:12>[CloudWatch Events & C# Lambda's]</size>//\n\nOn a scheduled basis get notifications that have to be sent" <<component>> as notification_scheduler 
+        rectangle "==Notifier\n//<size:12>[SNS & C# Lambda's]</size>//\n\nSend feeding instruction notifications to the pet owners" <<component>> as notifier 
+    }
+}
+
+pet_owner - ->> website : **View feeding reminders interface**\n//<size:12>[HTTPS:443 via Browser]</size>//
+pet_owner - ->> notification_management : **Get & Set feeding reminders**\n//<size:12>[REST over HTTPS (:443)]</size>//
+
+notification_scheduler - ->> notification_management : **Retrieve notifications to send**\n//<size:12>[REST over HTTPS (:443)]</size>//
+notification_scheduler - ->> pet_feeding_data_store : **Retrieve feeding instructions**\n//<size:12>[REST over HTTPS (:443)]</size>//
+notification_scheduler - ->> notifier : **Create notifications**\n//<size:12>[SNS Event]</size>//
+
+notifier - ->> pet_owner : **Send feeding reminder**\n//<size:12>[SNS SMS]</size>//
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 19:34:49 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: NL
+--></g></svg>
